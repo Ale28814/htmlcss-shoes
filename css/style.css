@@ -1,0 +1,49 @@
+/*first setting*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*screen-section*/
+
+.screen-section-1  {
+    height: 100vh;
+    background: red;
+    position: relative;
+}
+
+.screen-section-2{
+    height: 100vh;
+    background: green;
+    position: relative;
+}
+
+.screen-section-3{
+    height: 100vh;
+    background: yellow;
+    position: relative;
+}
+
+.screen-section-1 .box-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.screen-section-2 .box-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.screen-section-3 .box-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
