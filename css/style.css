@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 
 /*screen-section*/
@@ -47,3 +48,16 @@
     transform: translate(-50%, -50%);
 }
 
+.screen-section-3 .shoes-capture{
+    color: green;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.shoes-capture{
+    color: yellow;
+}
