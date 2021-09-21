@@ -7,6 +7,38 @@
     font-family: 'Oswald', sans-serif;
 }
 
+/*surfing*/
+
+.surf{
+    position: fixed;
+    top: 5%;
+    right: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.surf ul{
+    list-style: none;
+}
+
+.surf ul li a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.surf ul li {
+    margin: 15px 0;;
+}
+    
 /*screen-section*/
 
 .screen-section-1  {
